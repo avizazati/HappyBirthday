@@ -16,6 +16,7 @@
 		1FDB99BE26BDF02B0026D535 /* HBExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDB99BD26BDF02B0026D535 /* HBExtensions.swift */; };
 		1FDB99C126BDF6F60026D535 /* UserDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDB99C026BDF6F60026D535 /* UserDataManager.swift */; };
 		1FDB99C526BE005C0026D535 /* ImagePickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDB99C426BE005C0026D535 /* ImagePickerManager.swift */; };
+		1FDB99CE26BE92E80026D535 /* BirthdayScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDB99CD26BE92E80026D535 /* BirthdayScreenVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		1FDB99BD26BDF02B0026D535 /* HBExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBExtensions.swift; sourceTree = "<group>"; };
 		1FDB99C026BDF6F60026D535 /* UserDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataManager.swift; sourceTree = "<group>"; };
 		1FDB99C426BE005C0026D535 /* ImagePickerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerManager.swift; sourceTree = "<group>"; };
+		1FDB99CD26BE92E80026D535 /* BirthdayScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayScreenVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +66,7 @@
 			children = (
 				1FDB99A226BC2DF20026D535 /* AppDelegate.swift */,
 				1FDB99A426BC2DF20026D535 /* SceneDelegate.swift */,
-				1FDB99B926BC72940026D535 /* mainVC.swift */,
+				1FDB99D026BE92F90026D535 /* ViewControllers */,
 				1FDB99C026BDF6F60026D535 /* UserDataManager.swift */,
 				1FDB99A826BC2DF20026D535 /* Main.storyboard */,
 				1FDB99AB26BC2DF40026D535 /* Assets.xcassets */,
@@ -74,6 +76,15 @@
 				1FDB99C426BE005C0026D535 /* ImagePickerManager.swift */,
 			);
 			path = HappyBirthday;
+			sourceTree = "<group>";
+		};
+		1FDB99D026BE92F90026D535 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1FDB99B926BC72940026D535 /* mainVC.swift */,
+				1FDB99CD26BE92E80026D535 /* BirthdayScreenVC.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +162,7 @@
 				1FDB99BA26BC72940026D535 /* mainVC.swift in Sources */,
 				1FDB99C126BDF6F60026D535 /* UserDataManager.swift in Sources */,
 				1FDB99BE26BDF02B0026D535 /* HBExtensions.swift in Sources */,
+				1FDB99CE26BE92E80026D535 /* BirthdayScreenVC.swift in Sources */,
 				1FDB99C526BE005C0026D535 /* ImagePickerManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
