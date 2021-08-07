@@ -43,6 +43,49 @@ class UserDataManager {
         }
         return nil
     }
+    
+//    func isMoreThanOneYear() -> Bool? {
+//        
+//        if let birthday = getBabyBirthdayDate(),
+//           let oneYearAgo = Calendar.current.date(byAdding: .year, value: -1, to: Date()) {
+//           let order = Calendar.current.compare(birthday, to: oneYearAgo, toGranularity: .day)
+//                        
+//            switch order {
+//            case .orderedDescending:
+//                print("DESCENDING")
+//                return false
+//            case .orderedAscending:
+//                print("ASCENDING")
+//                return true
+//            case .orderedSame:
+//                print("SAME")
+//                return true
+//            }
+//        }
+//        return nil
+//    }
+    
+    func getBabyNumberOfMonthes() -> Int {
+        return 0
+    }
+    
+    func getBabyYears() -> Int? {
+        if let birthday = getBabyBirthdayDate() {
+            let calendar = Calendar.current
+            let ageComponents = calendar.dateComponents([.year], from: birthday, to: Date())
+            return ageComponents.year
+        }
+        return nil
+    }
+    
+    func getBabyMonths() -> Int? {
+        if let birthday = getBabyBirthdayDate() {
+            let calendar = Calendar.current
+            let ageComponents = calendar.dateComponents([.month], from: birthday, to: Date())
+            return ageComponents.month
+        }
+        return nil
+    }
         
     func setBabyImage(image: UIImage) {
         

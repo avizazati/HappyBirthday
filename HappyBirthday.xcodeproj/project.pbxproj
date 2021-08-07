@@ -17,6 +17,7 @@
 		1FDB99C126BDF6F60026D535 /* UserDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDB99C026BDF6F60026D535 /* UserDataManager.swift */; };
 		1FDB99C526BE005C0026D535 /* ImagePickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDB99C426BE005C0026D535 /* ImagePickerManager.swift */; };
 		1FDB99CE26BE92E80026D535 /* BirthdayScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDB99CD26BE92E80026D535 /* BirthdayScreenVC.swift */; };
+		1FDB99D326BEE7890026D535 /* BirthdayScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDB99D226BEE7890026D535 /* BirthdayScreenViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		1FDB99C026BDF6F60026D535 /* UserDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataManager.swift; sourceTree = "<group>"; };
 		1FDB99C426BE005C0026D535 /* ImagePickerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerManager.swift; sourceTree = "<group>"; };
 		1FDB99CD26BE92E80026D535 /* BirthdayScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayScreenVC.swift; sourceTree = "<group>"; };
+		1FDB99D226BEE7890026D535 /* BirthdayScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayScreenViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			children = (
 				1FDB99B926BC72940026D535 /* mainVC.swift */,
 				1FDB99CD26BE92E80026D535 /* BirthdayScreenVC.swift */,
+				1FDB99D226BEE7890026D535 /* BirthdayScreenViewModel.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				1FDB99A326BC2DF20026D535 /* AppDelegate.swift in Sources */,
 				1FDB99A526BC2DF20026D535 /* SceneDelegate.swift in Sources */,
 				1FDB99BA26BC72940026D535 /* mainVC.swift in Sources */,
+				1FDB99D326BEE7890026D535 /* BirthdayScreenViewModel.swift in Sources */,
 				1FDB99C126BDF6F60026D535 /* UserDataManager.swift in Sources */,
 				1FDB99BE26BDF02B0026D535 /* HBExtensions.swift in Sources */,
 				1FDB99CE26BE92E80026D535 /* BirthdayScreenVC.swift in Sources */,

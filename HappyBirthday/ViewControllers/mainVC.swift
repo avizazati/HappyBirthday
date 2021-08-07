@@ -16,13 +16,17 @@ class mainVC: UIViewController,UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Happy birthday!"
+        self.title = "Happy Birthday!"
         setupUI()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
+        self.navigationController?.isNavigationBarHidden = false
+        
+        
+        //fill in the baby details if exists
         if let image = UserDataManager.shaerd.getBabyImage() {
             self.avatarImageView.image = image
         }
