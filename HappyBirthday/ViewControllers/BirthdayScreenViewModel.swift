@@ -21,9 +21,9 @@ class BirthdayScreenViewModel {
     func getOldLabelText() -> String {
         if let years =  UserDataManager.shaerd.getBabyYears() {
             if years > 0 {
-               return "YEAR OLD"
-            }else {
-                return "MONTH OLD"
+                return years != 1 ? "YEARS OLD" : "YEAR OLD"
+            }else if let months =  UserDataManager.shaerd.getBabyMonths() {
+                return  months != 1 ? "MONTHS OLD" : "MONTH OLD"
             }
         }
         return ""
